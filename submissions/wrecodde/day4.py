@@ -3,7 +3,7 @@
 # that is: can be spelt same way backwards like
 # racecar, nursesrun and 7102017
 
-text = input("enter a word.. ")
+text = input("enter a word.. ").lower()
 
 if text == text[::-1]:
     print(f"{text} is a palindrome")
